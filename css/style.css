@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body
+{
+    height: 100vh;
+    background-color: #BC002D;
+    color: #dfe4e2;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+.informacoes
+{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+  
+    
+}
+
+.informacoes_links
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 5% 0%;
+}
+
+
+.informacoes_links_links
+{
+    color: #dfe4e2;
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 20px;
+}
+
+.informacoes_links_social
+{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0%;
+}
+.informacoes_logo
+{
+    padding: 5% 0%;
+}
+
+.cabecalho
+{
+   
+    background-color: #130f0c;
+   
+}
+.info
+{
+    display: flex;
+    gap: 150px;
+   
+}
+
+.logo
+{
+    padding: 2% 5%;
+}
+
+.abas
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+    font-size: 25px;
+    font-family: 'Segoe UI', sans-serif;
+    text-decoration: none;
+    
+}
+
+.abas a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.abas a:hover
+{
+    text-decoration: underline;
+    color: inherit;
+}
+
+
+.foto_equipe
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 0px;
+    font-size: 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.chamada
+{
+    background-image: url(/Imagem/kendobanner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+
+.chamada_texto
+{
+    font-size: 25px;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 150px 50px 80px 50px;
+}
+
+.chamada_texto_str
+{
+    color: #BC002D;
+}
+
+.chamada_link a
+{
+    color: inherit;
+}
+
+.chamada_link_botao
+{
+    background-color: red;
+    width: 150px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 14px;
+    margin: 0px 50px;
+    padding: 21.5px 50px;
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.disciplinas
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.disciplinas_lista
+{
+    display: flex;
+}
+
+.vantagens
+{
+    display: flex;
+    padding: 0px 0px 0px 30px;
+    background-color: rgb(34, 32, 58);
+}
+
+.vantagens_texto
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    font-size: 25px;
+
+}
+
+.vantagens_links
+{
+    display: flex;
+    margin: 30px 0px 0px 0px;
+}
+
+.vantagens_links_botao
+{
+    background-color: red;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 14px;
+    margin: 0px 50px;
+    padding: 21.5px 50px;
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.vantagens_texto a
+{
+    color: white;
+}
+.rodape
+{
+    background-color: #130f0c;
+    color: #dfe4e2;
+    text-align: center;
+}
+
+.rodape li::marker
+{
+    color: #BC002D;
+}
+
+.informacoes_direitos
+{
+    font-size: 15px;
+}
+/* Sobre Nos */
+
+.sobre1
+{   text-align: left;
+    display: flex;
+}
+
+.senseis
+{
+    display: flex;
+    gap: 50px;
+    margin: 0% 10%;
+    justify-content: center;
+}
+
+
+.sensei_coluna
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sensei_coluna ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
