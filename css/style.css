@@ -177,11 +177,17 @@ img
 .vantagens_texto
 {
     display: flex;
+    gap: 20px;
     flex-direction: column;
     justify-content: center;
     width: 700px;
     font-size: 25px;
 
+}
+
+.vantagens_texto ul
+{
+    list-style-type: none;
 }
 
 .vantagens_links
