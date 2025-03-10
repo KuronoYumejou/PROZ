@@ -283,12 +283,17 @@ img
     margin: 0;
     padding: 0;
 }
-
-.dojoalunoinf
+.sobrenos_info
+{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.sobrenos_info_dojoalunoinf
 {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 300px;
 }
 
 /* Botão Whatsapp */
