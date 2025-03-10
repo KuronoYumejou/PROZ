@@ -222,7 +222,8 @@ img
 /* Sobre Nos */
 
 .sobre1
-{   text-align: left;
+{   
+    text-align: left;
     display: flex;
 }
 
@@ -248,3 +249,41 @@ img
     margin: 0;
     padding: 0;
 }
+
+/* Seja Aluno */
+
+.seja_aluno 
+h1{
+
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 2em;
+  padding: 0;
+
+}
+
+.texto_direita
+{
+    text-align: left;
+}
+
+.texto_esquerda
+{
+    text-align: right;
+    text-align: left;
+}
+
+.aluno_kendo
+{
+    display: flex;
+    flex-direction: center;
+    font-size: 1em;
+    font-family: 'Segoe UI',sans-serif;
+    text-align: center;
+    padding: 0em ;
+    gap: 2em ;
+    margin: 5% 30%;
+
+}
+
