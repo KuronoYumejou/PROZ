@@ -166,11 +166,14 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 50px;
 }
 
 .disciplinas_lista
 {
     display: flex;
+    gap: 80px;
+    text-align: center;
 }
 
 /* Vantagens */
@@ -292,7 +295,7 @@ body
     padding: 0;
 }
 
-.sensei_coluna_fonte
+.sensei_coluna_fonte, .titulo_vantagens
 {
  color: #BC002D;
 }
