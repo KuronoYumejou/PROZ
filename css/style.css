@@ -135,11 +135,12 @@ body
     flex-direction: column; */
     display: inline-block;
     position: relative;
+    margin: 40px 30px;
 }
 .chamada_textos
 {
     position: absolute;
-    top: 300px;
+    top: 250px;
     font-size: 25px;
     font-family: 'Segoe UI', sans-serif;
 }
@@ -161,7 +162,7 @@ body
     text-align: center;
     border-radius: 16px;
     font-size: 14px;
-    margin: 0px 50px;
+    margin: 0px 30px;
     padding: 21.5px 50px;
     text-decoration: none;
     font-family: 'Segoe UI', sans-serif;
@@ -483,4 +484,14 @@ h1{
        margin: 80px;
     }
 
+
+}
+
+@media screen and (max-width:520px)
+{
+    
+    .chamada_textos
+    {
+        top: 200px;
+    }
 }
