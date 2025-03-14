@@ -187,6 +187,7 @@ body
     display: flex;
     gap: 80px;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 /* Vantagens */
@@ -194,7 +195,7 @@ body
 .vantagens
 {
     display: flex;
-    padding: 0px 0px 0px 30px;
+    /* padding: 0px 0px 0px 30px; */
     background-color: rgb(34, 32, 58);
 }
 
@@ -206,6 +207,7 @@ body
     justify-content: center;
     width: 700px;
     font-size: 25px;
+    padding: 30px 30px;
 
 }
 
@@ -456,3 +458,29 @@ h1{
     display: block;
 
   }
+.Kendoka
+{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    object-fit: cover; 
+}
+
+@media screen and (max-width:850px){
+    .Kendoka {
+       display: none;
+    }
+    .disciplinas_lista
+    {
+        display: inline;
+        align-content: center;
+    }
+
+    .displina_itens
+    {
+       margin: 80px;
+    }
+
+}
