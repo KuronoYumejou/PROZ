@@ -6,6 +6,10 @@
     box-sizing: border-box;
     
 }
+.responsive
+{
+    overflow-x: hiddens;
+}
 
 /*Tags Geral */
 
@@ -25,6 +29,7 @@ body
 {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 150px;
   
     
@@ -116,25 +121,27 @@ body
 
 /* Chamada */
 
-.chamada
-{
-    background-image: url(/Imagem/kendobanner.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    
-}
-
 .chamada_texto
 {
+    /* background-image: url(/Imagem/kendobanner.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    padding: 100px 0px;
+    
+    text-align: left;
+    display: flex;
+    gap: 30px;
+    flex-direction: column; */
+    display: inline-block;
+    position: relative;
+}
+.chamada_textos
+{
+    position: absolute;
+    top: 300px;
     font-size: 25px;
     font-family: 'Segoe UI', sans-serif;
-    padding: 150px 50px 80px 50px;
 }
 
 .chamada_texto_str
