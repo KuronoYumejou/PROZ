@@ -72,13 +72,12 @@ body
 .info
 {
     display: flex;
-    gap: 150px;
    
 }
 
 .logo
 {
-    padding: 2% 5%;
+    padding: 0% 10%;
 }
 
 /* Abas */
@@ -86,10 +85,9 @@ body
 .abas
 {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
     gap: 50px;
     font-size: 25px;
+    margin: 50px 0px;
     font-family: 'Segoe UI', sans-serif;
     text-decoration: none;
     
@@ -511,7 +509,16 @@ h1{
         width: 600px;
     }
 
-
+    .informacoes_logo
+    {
+        padding: 5% 0%;
+        flex-basis: 100%;
+    }
+    
+    .informacoes
+    {
+        gap: 50px;
+    }
 
 
 
