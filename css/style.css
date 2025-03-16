@@ -282,7 +282,7 @@ body
 {
     display: flex;
     gap: 15px;
-   
+    flex-wrap: wrap;
     justify-content: center;
     font-family: 'Segoe UI', sans-serif;
     text-align: center;
@@ -325,6 +325,10 @@ body
   flex-direction: column;
   align-items: center;
   gap: 50px;
+}
+.sobrenos_info_texto
+{
+    width: 800px;
 }
 .sobrenos_info_dojoalunoinf
 {
@@ -430,6 +434,11 @@ h1{
     background-color: inherit;
 }
 
+.esconde_texto, .esconde_texto2 , .esconde_texto3
+{
+   width: 400px;
+}
+
 .esconde_texto:hover .subconteudo{
     display: block;
 
@@ -483,6 +492,13 @@ h1{
     {
        margin: 80px;
     }
+
+    .sobrenos_info_texto
+    {
+        width: 600px;
+    }
+
+
 
 
 }
