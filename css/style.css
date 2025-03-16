@@ -511,3 +511,57 @@ h1{
         top: 200px;
     }
 }
+
+fieldset {
+    border: 0;
+}
+
+
+.form{
+    background-color:rgb(34, 32, 58); 
+    display: flex;
+    box-sizing: content-box;
+    margin: 0px;
+
+}
+
+
+input, select, textarea, button {
+    border-radius: 5px;
+    margin: 10px;
+}
+
+
+.formcampo {
+
+    
+    
+    
+    font-size: 15px;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+    
+
+    
+    
+    
+
+}
+
+
+.formcampo label{
+    color: #594296;
+    
+}
+
+
+.formcampo input[type="text"], .formcampo input[type="email"], .formcampo input[type="date"], .formcampo select[name="estado"], .formcampo textarea  {
+    padding: 5px;
+    border: 1px solid #594296;
+    
+}
+
+img{
+    align-items: center;
+}
