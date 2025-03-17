@@ -460,10 +460,22 @@ h1{
     width: 800px;
 }
 
-.aluno_kendo
+.aluno_kendo_direita
 {
     display: flex;
-    flex-direction: center;
+    font-size: 1em;
+    font-family: 'Segoe UI',sans-serif;
+    text-align: center;
+    padding: 0em ;
+    gap: 2em ;
+    margin: 5% 10%;
+
+}
+
+.aluno_kendo_esquerda
+{
+    display: flex;
+    flex-direction: row;
     font-size: 1em;
     font-family: 'Segoe UI',sans-serif;
     text-align: center;
@@ -600,12 +612,18 @@ h1{
         background-color: #ddd;
         color: black;
       }
+
+      .aluno_kendo_esquerda
+      {
+        flex-wrap: wrap;
+      }
       
-
-
+      .aluno_kendo_direita
+      {
+        flex-wrap: wrap-reverse;
+      }
 
 }
-
 @media screen and (max-width:520px)
 {
     
@@ -655,18 +673,16 @@ input, select, textarea, button {
 }
 
 
-.formcampo label{
+.formcampo label
+{
     color: #594296;
     
 }
 
 
-.formcampo input[type="text"], .formcampo input[type="email"], .formcampo input[type="date"], .formcampo select[name="estado"], .formcampo textarea  {
+.formcampo input[type="text"], .formcampo input[type="email"], .formcampo input[type="date"], .formcampo select[name="estado"], .formcampo textarea  
+{
     padding: 5px;
     border: 1px solid #594296;
     
-}
-
-img{
-    align-items: center;
 }
