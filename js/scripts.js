@@ -1,8 +1,14 @@
+
 function showmenu() {
-    var x = document.getElementById("abas");
+    var x = document.getElementById("abas_mobile");
     if (x.style.display === "block") {
         x.style.display = "none";
-    } else {
+    }  
+    else
+    {
         x.style.display = "block";
     }
+
 }
+
+updateContent()
