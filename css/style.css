@@ -422,6 +422,11 @@ body
 /*!!! Seja Aluno Classes !!!*/
 
 .seja_aluno 
+{
+    text-align: center;
+}
+
+.seja_aluno 
 h1{
 
   text-align: center;
@@ -444,6 +449,17 @@ h1{
     text-align: left;
 }
 
+.texto_centro
+{
+    text-align: center;
+}
+
+.kendoaluno_texto
+{
+    text-align: center;
+    width: 800px;
+}
+
 .aluno_kendo
 {
     display: flex;
@@ -453,7 +469,7 @@ h1{
     text-align: center;
     padding: 0em ;
     gap: 2em ;
-    margin: 5% 30%;
+    margin: 5% 10%;
 
 }
 
@@ -607,11 +623,13 @@ fieldset {
 .form{
     background-color:rgb(34, 32, 58); 
     display: flex;
+    align-items: flex-end;
     box-sizing: content-box;
-    margin: 0px;
 
 }
-
+textarea {
+    resize: none;
+  }
 
 input, select, textarea, button {
     border-radius: 5px;
@@ -625,7 +643,7 @@ input, select, textarea, button {
     
     
     font-size: 15px;
-    margin-left: 36%;
+    margin-left: 16%;
     margin-top: 2%;
     justify-content: center;
     
