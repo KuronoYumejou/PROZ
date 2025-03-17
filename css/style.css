@@ -82,8 +82,9 @@ body
 
 /* Abas */
 
-.abas
+#abas
 {
+    display: block;
     display: flex;
     gap: 50px;
     font-size: 25px;
@@ -93,13 +94,13 @@ body
     
 }
 
-.abas a
+#abas a
 {
     text-decoration: none;
     color: inherit;
 }
 
-.abas a:hover
+#abas a:hover
 {
     text-decoration: underline;
     color: inherit;
@@ -392,6 +393,10 @@ body
     
     }
 
+.icon2
+{
+    display: none;
+}
 /*!!! Seja Aluno Classes !!!*/
 
 .seja_aluno 
@@ -519,6 +524,38 @@ h1{
     {
         gap: 50px;
     }
+      
+      .info {
+        overflow: hidden;
+        background-color: #130f0c;
+        position: relative;
+      }
+      
+      .info #abas {
+        display: none;
+      }
+      
+      .info a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      .info a.icon2 {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .info a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
 
 
 
