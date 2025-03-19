@@ -708,6 +708,7 @@ input, select, textarea, button {
 }
 
 .locback{
+    background-image: url(Imagem/fundo-localizacao.png);
     background-repeat: no-repeat;
     background-position:center;
     background-position-y:150%;
