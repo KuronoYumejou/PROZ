@@ -698,3 +698,33 @@ input, select, textarea, button {
     border: 1px solid #594296;
     
 }
+
+.localizacao{
+    width: 500px;
+    display: inline-block;
+    border-radius: 250px;
+    border-color: rgb(0, 0, 0);
+    
+}
+
+.locback{
+    background-repeat: no-repeat;
+    background-position:center;
+    background-position-y:150%;
+    background-position-x:100%;
+    width: 120%;
+    background-size: 120%;
+
+}
+
+.titulo-localizacao{
+    font-size: xx-large;
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    width: 500px;
+    top: 30%;
+    position: absolute;
+    color: black;
+
+}
