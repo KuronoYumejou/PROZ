@@ -113,13 +113,25 @@ body
 
 #abas_mobile 
 {
-    text-decoration: underline;
+    text-decoration: none;
     color: inherit;
 }
+
 #abas a:hover
 {
-    text-decoration: underline;
-    color: inherit;
+    
+    color: #BC002D;
+}
+
+.link_ativo
+{
+    
+    color: #BC002D;
+}
+
+#abas_mobile  a:hover
+{
+    color:  #BC002D;
 }
 
 .mobile_menu
@@ -345,6 +357,24 @@ body
     padding: 0;
 }
 
+.sensei_coluna2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: black;
+    border-style: solid;
+    border-color: #383838;
+}
+
+.sensei_coluna2 ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .sensei_coluna_fonte, .titulo_vantagens
 {
  color: #BC002D;
@@ -493,7 +523,7 @@ h1{
     width: 100%;
     z-index: 1;
   }
-.setaconteudo
+.setaconteudo, .setaconteudo2, .setaconteudo3
 {
     border: none;
     outline: none;
