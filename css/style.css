@@ -704,19 +704,11 @@ input, select, textarea, button {
     display: inline-block;
     border-radius: 250px;
     border-color: rgb(0, 0, 0);
+    top: 30%;
+    left: 10%;
     
 }
 
-.locback{
-    background-image: url(Imagem/fundo-localizacao.png);
-    background-repeat: no-repeat;
-    background-position:center;
-    background-position-y:150%;
-    background-position-x:100%;
-    width: 120%;
-    background-size: 120%;
-
-}
 
 .titulo-localizacao{
     font-size: xx-large;
@@ -728,4 +720,9 @@ input, select, textarea, button {
     position: absolute;
     color: black;
 
+}
+.locback
+{
+    display: flex;
+    background-color: white;
 }
