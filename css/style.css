@@ -52,11 +52,28 @@ body
     font-size: 20px;
 }
 
+.informacoes a:hover
+{
+    color: #bc002d;
+}
+
 .informacoes_links_social
 {
     display: flex;
     flex-direction: column;
     padding: 5% 0%;
+}
+.informacoes_links_inst:hover
+{
+    filter: invert(1) brightness(5);
+}
+.informacoes_links_x:hover
+{
+    filter: invert(1) brightness(5);
+}
+.informacoes_links_ytb:hover
+{
+    filter: invert(1) brightness(5);
 }
 .informacoes_logo
 {
@@ -147,6 +164,7 @@ body
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-color: rgb(34, 32, 58);
     gap: 20px;
     font-size: 20px;
     font-family: 'Segoe UI', sans-serif;
@@ -286,6 +304,7 @@ body
 {
     display: inline-block;
     position: relative;
+    background-color: rgb(34, 32, 58);
     width: 100%;
     padding: 0px 0px 30px 0px;
   
@@ -293,6 +312,7 @@ body
 .SobreTitulo2
 {
     padding: 30px 0px 0px 0px;
+    background-color: rgb(34, 32, 58);
 }
 .SobreTitulo_texto
 {
@@ -388,7 +408,7 @@ body
 {
     font-family: 'Segoe UI', sans-serif, bold;
     font-size: 40px;
-    color: rgb(230, 230, 52);
+    color: #BC002D;
 }
 
 /* Botão Whatsapp */
@@ -649,6 +669,19 @@ h1{
     {
         top: 200px;
     }
+    .sobrenos_info_dojoalunoinf
+    {
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+    .sobrenos_info_texto
+    {
+        width: 400px;
+    }
+    .senseis
+    {
+        flex-wrap: wrap;
+    }
 }
 
 fieldset {
@@ -739,3 +772,4 @@ input, select, textarea, button {
     display: flex;
     background-color: white;
 }
+
