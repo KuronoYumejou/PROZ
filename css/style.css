@@ -456,9 +456,16 @@ body
 }
 /*!!! Seja Aluno Classes !!!*/
 
+.aluno_kendo_conteudo
+{
+    background-color: rgb(34, 32, 58);
+}
+
 .seja_aluno 
 {
     text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: rgb(34, 32, 58);
 }
 
 .seja_aluno 
@@ -504,7 +511,6 @@ h1{
     padding: 0em ;
     gap: 2em ;
     margin: 5% 10%;
-
 }
 
 .aluno_kendo_esquerda
@@ -775,3 +781,11 @@ input, select, textarea, button {
     background-color: white;
 }
 
+.cor_azul
+{
+    background-color:rgb(34, 32, 58); 
+}
+.detaque_vermelho
+{
+    color: #BC002D;
+}
