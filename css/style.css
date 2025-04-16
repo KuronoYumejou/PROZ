@@ -6,11 +6,17 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: rgb(34, 32, 58);
+    overflow: hidden;
+    background-color: #000;
     gap: 20px;
     font-size: 20px;
     font-family: 'Segoe UI', sans-serif;
-}s
+}
+
+.background_preto
+{
+    background-color: #000;
+}
 
 
 
@@ -19,9 +25,10 @@
 {
     display: inline-block;
     position: relative;
-    background-color: rgb(34, 32, 58);
+    background-color: #000;
+    height: 100%;
     width: 100%;
-    padding: 0px 0px 30px 0px;
+    padding: 0px 0px 0px 0px;
   
 }
 .SobreTitulo2
@@ -29,17 +36,17 @@
     position: relative;
     padding: 30px 0px 0px 0px;
     width: 100%;
-    background-color: rgb(34, 32, 58);
+    background-color: #000;
 }
 .SobreTitulo_texto
 {
     text-align: center;
     position: absolute;
-    font-size: 25px;
-    top: 150px;
+    font-size: 20px;
+    top: 230px;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: "Protest Revolution", sans-serif;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 .SobreTitulo_texto2
@@ -125,6 +132,10 @@
 {
     font-family: 'Segoe UI', sans-serif, bold;
     font-size: 40px;
+    color: #BC002D;
+}
+.sobretitulo_marcado
+{
     color: #BC002D;
 }
 
