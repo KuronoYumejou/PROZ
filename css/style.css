@@ -1,162 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
-.responsive
-{
-    overflow-x: hiddens;
-}
-
-/*Tags Geral */
-
-body
-{
-    height: 100vh;
-    background-color: #BC002D;
-    color: #dfe4e2;
-    position:relative;
-    width:  100%;
-}
-
-
-/* Informaçoes */
-
-.informacoes
-{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 150px;
-  
-    
-}
-
-.informacoes_links
-{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    padding: 5% 0%;
-}
-
-
-.informacoes_links_links
-{
-    color: #dfe4e2;
-    text-decoration: none;
-    font-family: 'Segoe UI', sans-serif;
-    font-size: 20px;
-}
-
-.informacoes a:hover
-{
-    color: #bc002d;
-}
-
-.informacoes_links_social
-{
-    display: flex;
-    flex-direction: column;
-    padding: 5% 0%;
-}
-.informacoes_links_inst:hover
-{
-    filter: invert(1) brightness(5);
-}
-.informacoes_links_x:hover
-{
-    filter: invert(1) brightness(5);
-}
-.informacoes_links_ytb:hover
-{
-    filter: invert(1) brightness(5);
-}
-.informacoes_logo
-{
-    padding: 5% 0%;
-}
-
-.cabecalho
-{
-   
-    background-color: #130f0c;
-   
-}
-.info
-{
-    display: flex;
-   
-}
-
-.logo
-{
-    padding: 0% 10%;
-} 
-
-/* Abas */
-
-#abas
-{
-    display: flex;
-    gap:50px;
-    position: relative;;
-    font-size: 25px;
-    top: -70px;
-    transform: translateX(35%);
-    font-family: 'Segoe UI', sans-serif;
-    text-decoration: none;
-    
-}
-
-#abas_mobile
-{
-    display: none;
-}
-
-#abas a
-{
-    text-decoration: none;
-    color: inherit;
-}
-
-#abas_mobile a
-{
-    text-decoration: none;
-    color: inherit;
-}
-
-#abas_mobile 
-{
-    text-decoration: none;
-    color: inherit;
-}
-
-#abas a:hover
-{
-    
-    color: #BC002D;
-}
-
-.link_ativo
-{
-    
-    color: #BC002D;
-}
-
-#abas_mobile  a:hover
-{
-    color:  #BC002D;
-}
-
-.mobile_menu
-{
-    display: flex;
-    justify-content: flex-end;
-}
 
 
 .foto_equipe
@@ -168,136 +10,9 @@ body
     gap: 20px;
     font-size: 20px;
     font-family: 'Segoe UI', sans-serif;
-}
+}s
 
-/* Chamada */
 
-.chamada_texto
-{
-
-    display: inline-block;
-    position: relative;
-    margin: 40px 30px;
-}
-.chamada_textos
-{
-    position: absolute;
-    top: 250px;
-    font-size: 25px;
-    font-family: 'Segoe UI', sans-serif;
-}
-
-.chamada_texto_str
-{
-    color: #BC002D;
-}
-
-.chamada_link a
-{
-    color: inherit;
-}
-
-.chamada_link_botao
-{
-    background-color: red;
-    width: 150px;
-    text-align: center;
-    border-radius: 16px;
-    font-size: 14px;
-    margin: 0px 30px;
-    padding: 21.5px 50px;
-    text-decoration: none;
-    font-family: 'Segoe UI', sans-serif;
-   
-}
-
-/* Disciplinas  */
-
-.disciplinas
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 70px;
-    font-family: 'Segoe UI', sans-serif;
-    padding: 80px;
-    font-size: 20px;
-}
-
-.disciplinas_lista
-{
-    display: flex;
-    gap: 80px;
-    text-align: center;
-    flex-wrap: wrap;
-}
-
-/* Vantagens */
-
-.vantagens
-{
-    display: flex;
-    /* padding: 0px 0px 0px 30px; */
-    justify-content: center;
-    background-color: rgb(34, 32, 58);
-}
-
-.vantagens_texto
-{
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-    justify-content: center;
-    width: 700px;
-    font-size: 25px;
-    padding: 30px 30px;
-
-}
-
-.vantagens_texto ul
-{
-    list-style-type: none;
-}
-
-.vantagens_links
-{
-    display: flex;
-    margin: 30px 0px 0px 0px;
-}
-
-.vantagens_links_botao
-{
-    background-color: red;
-    text-align: center;
-    border-radius: 16px;
-    font-size: 14px;
-    margin: 0px 50px;
-    padding: 21.5px 50px;
-    text-decoration: none;
-    font-family: 'Segoe UI', sans-serif;
-}
-
-.vantagens_texto a
-{
-    color: white;
-}
-.rodape
-{
-    background-color: #130f0c;
-    color: #dfe4e2;
-    text-align: center;
-}
-
-.rodape li::marker
-{
-    color: #BC002D;
-}
-
-.informacoes_direitos
-{
-    font-size: 15px;
-}
 
 /*!!! Sobre Classes !!! */
 .SobreTitulo
@@ -324,7 +39,7 @@ body
     top: 150px;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'Segoe UI', sans-serif;
+    font-family: "Protest Revolution", sans-serif;
 }
 
 .SobreTitulo_texto2
@@ -413,47 +128,7 @@ body
     color: #BC002D;
 }
 
-/* Botão Whatsapp */
 
-.icon{
-    position: fixed;
-    bottom: 65px;
-    right: 30px;
-    font-size: 30px;
-    background-color: #01e675;
-    color: #fff;
-    border-radius: 50%;
-    padding: 10px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    text-decoration: none;
-    z-index: 100;
-    box-shadow: 2px 2px 2px #c0bdbd;
-    }
-    .icon:hover{
-        background-color: #fff;
-        color: #029e3b;
-        font-weight: 2px;
-        box-shadow: 2px 2px 20px #5fe690;
-    }
-    .container-1{
-        width: 100%;
-        height: 90vh;
-        background-color: #72dda7;
-        margin-bottom: 40px;
-    }
-    .container-2{
-        width: 100%;
-        height: 90vh;
-        background-color: #004d26;
-    
-    }
-
-.icon2
-{
-    display: none;
-}
 /*!!! Seja Aluno Classes !!!*/
 
 .aluno_kendo_conteudo
@@ -586,84 +261,16 @@ h1{
     display: block;
 
   }
-.Kendoka
-{
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    object-fit: cover; 
-}
+
 
 @media screen and (max-width:850px){
-    .Kendoka {
-       display: none;
-    }
-    .disciplinas_lista
-    {
-        display: inline;
-        align-content: center;
-    }
-
-    .disciplina_itens
-    {
-       margin: 80px;
-    }
 
     .sobrenos_info_texto
     {
         width: 600px;
     }
-
-    .informacoes_logo
-    {
-        padding: 5% 0%;
-        flex-basis: 100%;
-    }
-    
-    .informacoes
-    {
-        gap: 50px;
-    }
       
-      .mobile_menu {
-        overflow: hidden;
-        background-color: #130f0c;
-        position: relative;
-      }
-      
-      .mobile_menu #abas_mobile{
-        display: none;
-      }
-      #abas
-      {
-        display: none;
-      }
-      
-      .mobile_menu a {
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-      }
-      
-      .icon2 {
-        background: black;
-        display: block;
-        color: white;
-        padding: 40px 16px;
-        font-size: 30px;
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-      
-      .mobile_menu a:hover {
-        background-color: #ddd;
-        color: black;
-      }
+     
 
       .aluno_kendo_esquerda
       {
@@ -684,10 +291,6 @@ h1{
 @media screen and (max-width:520px)
 {
     
-    .chamada_textos
-    {
-        top: 200px;
-    }
     .sobrenos_info_dojoalunoinf
     {
         flex-wrap: wrap;
