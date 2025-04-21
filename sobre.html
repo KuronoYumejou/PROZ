@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Erick">
     <title> Sobre Nós </title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/geral.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script rel="text/javascript" src="js/scripts.js"></script>
 </head>
 <body>
     <div class1="container">
@@ -20,54 +23,77 @@
 
     </div>
     <header class ="cabecalho">
-  
+       
         <section class="info">
-            <div class="logo">
-                 <img src= "Imagem/Logonova.png" width="150px" height="130px" alt="logo">
-            </div>
-            <div class="abas">
-                <a href="index.html">SOBRE NOS</a>
-                <a class="abas_links">KENDO</a>
-                <a class="abas_links">IAIDO</a>
-                <a href="sobre.html">A EQUIPE</a>
-            </div>
+                <div class="logo" >
+    
+                    <img src= "Imagem/Logonova.png"width="150px" height="130px" alt="logo">
+                </div>
+               
+                <div id="abas">
+                    <a href="index.html">Sobre nos</a>
+                    <a class="abas_links">Kendo</a>
+                    <a class="abas_links">Iaido</a>
+                    <a href="sobre.html">A Equipe</a>
+                </div>
+                <a  href="javascript:void(0);" class="icon2" onclick="showmenu()">
+                    <i class="fa fa-bars" width="150px" height="130px"></i>
+                  </a>
+                
         </section>
+        <section class="mobile_menu">
+            <div id="abas_mobile">
+                <a href="index.html">Home</a>
+                <a href="sobre.html">Sobre Nós</a>
+                <a href="localizacao.html">Dojos</a>
+                <a href="sejaalunokendo.html">Seja Aluno</a>
+            </div>
+         
+        </section>
+        <div id="abas">
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="localizacao.html">Dojos</a>
+            <a href="sejaalunokendo.html">Seja Aluno</a>
+        </div>
     </header>
     <main>
+    <section class="background_preto">
         <section class="SobreTitulo">
-            <img src="Imagem/sobretitulo.jpg" style="width: 100%; height: 500px; object-fit: cover; object-position: 20% 0;">
+            <img src="Imagem/sobretitulo.jpg" style="width: 100%; height: 450px; object-fit: cover; object-position: 20% 0;">
             <div class="SobreTitulo_texto">
-                <h1>SOBRE NÓS</h1>
+                <h1> DO <strong class="sobretitulo_marcado">JAPÃO</strong>, DIRETO PARA OS DOJOS DO <strong class="sobretitulo_marcado">BRASIL!</strong></h1>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             </div>
         </section>
         
         <section class="foto_equipe">
             <section class="sobrenos_info"> 
-                <div class="sobrenos_info_texto"> 
-                    <h1> Do Japão, direto para os dojos do Brasil!</h1>
-                    <br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
                 <div class="sobrenos_info_dojoalunoinf">
                     <figure>
-                        <img src="Imagem/dojo.png" width="150px" height="130px" alt="dojo.png" style="width:100%">
+                        <img src="Imagem/dojo.png" width="100px" height="100px" alt="dojo.png" style="width:80%">
                         <figcaption class="sobrenos_info_dojoalunoinf_texto"><strong> 3 <br> DOJOS</strong> </figcaption>
                       </figure>
                       <figure>
-                        <img src="Imagem/kendoalunos.png" width="150px" height="130px" alt="kendoalunos.png" style="width:100%">
-                        <figcaption class="sobrenos_info_dojoalunoinf_texto"><strong>300+ <br> ALUNOS </strong> </figcaption>
+                        <img src="Imagem/kendoalunos.png" width="100px" height="100px" alt="kendoalunos.png" style="width:80%">
+                        <figcaption class="sobrenos_info_dojoalunoinf_texto"><strong><p id='contador'>0</p> ALUNOS </strong> </figcaption>
                       </figure>
                 </div>
             </section>
-          
         </section>
+
+       
         <section class="SobreTitulo2">
-            <img src="Imagem/sobretitulo.jpg" style="width: 100%; height: 500px; object-fit: cover; object-position: 20% 0;">
+            <img src="Imagem/sobretituloSensei.png" style="width: 100%; height: 300px; object-fit: cover; object-position: 53% 0; filter: brightness(0.4);">
             <div class="SobreTitulo_texto2">
                 <h1>SEUS SENSEIS</h1>
             </div>
         </section>
-        
+        <div  class="titulos_educadores">
+            <h1>SENSEIS</h1>
+        </div>
+    </section>
         <section class="senseis">
             
                 <div class = "sensei_coluna">
@@ -118,7 +144,7 @@
                 <div class ="sensei_coluna">
                     <img src="Imagem/fotos/SenseiM.png" width="400px" height="350px" alt="SenseiM.png">
                     <h1 class="sensei_coluna_nome">Hanafuda Hikari</h1>
-                    <h4 class="sensei_coluna_fonte">SENSEI - 4º Dan</h4>
+                    <h4 class="sensei_coluna_fonte">SENSEI - 4º DAN</h4>
                     <div class="esconde_texto3">
                         <button class="setaconteudo"><img  width="100px" height="100px" src="Imagem/angle-arrow-down.png" alt="setabaixo.png"></button> 
             
@@ -136,7 +162,78 @@
                         </div>
                 </div>
         </section>
-           
+        <div class="titulos_educadores">
+            <h1>SENPAIS</h1>
+        </div>
+        <section class="senseis">
+            
+            <div class = "sensei_coluna">
+                 <img src="Imagem/fotos/Kohei.png" width="400px" height="350px" alt="fundador.jpg">
+                <h1 class="sensei_coluna_nome">Kohei Kikkawa</h1>
+                <h4 class="sensei_coluna_fonte">SENPAI - 2º DAN</h4>
+                </a> 
+                <div class="esconde_texto2">
+                    <button class="setaconteudo"><img  width="100px" height="100px" src="Imagem/angle-arrow-down.png" alt="setabaixo.png"></button> 
+
+        
+                    <div class="subconteudo2">
+                    <ul> 
+                        <li>2024 - Kyoto Kendo Butai - 1º Lugar</li>
+                        <li>2023 - Nikendo Team Tag - Top 3</li>
+                        <li>2023 - Campeonato Municipal de Belo Horizonte - 1º Lugar</li>
+                        <li>2022 - Beijing Sino-Japanese Kendo Champioship - 2º Lugar</li>
+                        <li>2019 - Nippo-Korean Kendo Champioship - 3º Lugar</li>
+                        <li>2019 - Campeonato Estadual de MG - 2º Lugar </li>
+                        <li>2018 - Kyoto Kendo Butai - 3º Lugar</li>
+                        <li>2018 - Senior Champioship Latin America - 3º Lugar</li>
+                        <li>2017 - Campeonato Brasileiro de Kendo - 2º Lugar</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            <div class = "sensei_coluna">
+                <img src="Imagem/fotos/Akiha.png" width="400px" height="350px" alt="senseiH.jpg">
+                <h1 class="sensei_coluna_nome">Akiha Matsuda</h1>
+                <h4 class="sensei_coluna_fonte">SENPAI - 2º DAN</h4>
+                <div class="esconde_texto">
+                    <button class="setaconteudo"><img  width="100px" height="100px" src="Imagem/angle-arrow-down.png" alt="setabaixo.png"></button> 
+        
+                    <div class="subconteudo">
+                        <ul>
+                            <li>2024 - Campeonato Brasileiro de Kendo - 2º Lugar</li>
+                            <li>2024 - Takemitsu Nippon Butai - 1º Lugar </li>
+                            <li>2024 - Nikendo Team Tag  - Top 7 </li>
+                            <li>2023 - Senior 4th Dan Champioship - 4º Lugar</li>
+                            <li>2023 - Campeonato Estadual - 2º Lugar - Time Contagem</li>
+                            <li>2022 - Campeonato Municipal Contagem - 3º Lugar </li>
+                            <li>2018 - Caompeonato Estadual - 2º Lugar - Time Contagem </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class ="sensei_coluna">
+                <img src="Imagem/fotos/Danbreton.png" width="400px" height="350px" alt="SenseiM.png">
+                <h1 class="sensei_coluna_nome">Dan Breton</h1>
+                <h4 class="sensei_coluna_fonte">SENPAI- 2º DAN</h4>
+                <div class="esconde_texto3">
+                    <button class="setaconteudo"><img  width="100px" height="100px" src="Imagem/angle-arrow-down.png" alt="setabaixo.png"></button> 
+        
+                    <div class="subconteudo3">
+                        <ul>
+                            <li>2024 - Campeonato Municipal Feminino - 1º Lugar</li>
+                            <li>2024 - Nikendo Team Tag  - Top 7 </li>
+                            <li>2023 - Takemitsu Nippon Butai - 2º Lugar </li>
+                            <li>2023 - Campeonato Estadual - 3º Lugar - Time BH</li>
+                            <li>2023 - Senior 4th Dan Champioship - 3º Lugar</li>
+                            <li>2022 - Campeonato Municipal Feminino BH - 2º Lugar </li>
+                            <li>2019 - Caompeonato Estadual Feminino - 4º Lugar - Time BH </li>
+                            <li>2018 - Hinamatsuri Kendo - 2º Lugar</li>
+                        </ul>
+                    </div>
+            </div>
+    </section>
+    <script rel="text/javascript" src="js/contador.js"></script>
     </main>
     <footer class="rodape" > 
         <section class="informacoes">
@@ -174,9 +271,9 @@
                 <h2>REDES SOCIAIS</h2>
                 <p>Nos siga em nossas redes sociais</p>
                 <div>
-                    <a class="informacoes_links_links" href="https://www.instagram.com/sturgeon_kendo/"><img src="Imagem/instagram.png"></a>
-                    <a class="informacoes_links_links" href="https://twitter.com/kendoniagara"><img src="Imagem/twitter-novo.png"></a>
-                    <a class="informacoes_links_links" href="https://www.youtube.com/@TheKendoShow/videos"><img src='Imagem/twitch.png'></a>
+                    <a class="informacoes_links_inst" href="https://www.instagram.com/sturgeon_kendo/"><img src="Imagem/instagram.png"></a>
+                    <a class="informacoes_links_x" href="https://twitter.com/kendoniagara"><img src="Imagem/twitter-novo.png"></a>
+                    <a class="informacoes_links_ytb" href="https://www.youtube.com/@TheKendoShow/videos"><img src='Imagem/twitch.png'></a>
                 </div>
             </div>
         </section>

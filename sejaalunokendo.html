@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alexandre & Erick">
     <title>Seja Aluno</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/geral.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
+    <script rel="text/javascript" src="js/scripts.js"></script>
 </head>
 
 <body>
@@ -26,52 +28,69 @@
        
 
         <section class="info">
-            <div class="logo">
-                 <img src= "Imagem/Logonova.png" width="150px" height="130px" alt="logo">
+            <div class="logo" >
+
+                <img src= "Imagem/Logonova.png"width="150px" height="130px" alt="logo">
             </div>
-            <div class="abas">
-                <a href="index.html">Sobre nos</a>
-                <a class="abas_links">Kendo</a>
-                <a class="abas_links">Iaido</a>
-                <a href="sobre.html">A Equipe</a>
-            </div>
-        </section>
-    </header>
-        
-    <!--seja aluno kendo-->
-    <section class="seja_aluno">
-        <div><h1><b>Seja Aluno Kendo</h1></b>
-        </div>
-
-        <section class="aluno_kendo">
-            <img src="Imagem/kendo 2.jpg" width="300px" height="300px" alt="descendencia.jpg">
-            <div class="texto_esquerda">
-
-            <h3><p>Descubra a arte ancestral do Kendo, um caminho de disciplina, respeito e evolução pessoal. Como aluno, você desenvolverá habilidades físicas e mentais, aprimorando sua concentração, reflexos e espírito guerreiro. </p></h3>
-            </div>
-        </section>
-
-        <!--6 a 12 anos de idade-->
-
-        <section class="aluno_kendo">
-            <div class="texto_direita">
-            <h3>(Para idades de 6 a 12 anos  Inscrições abertas o ano todo!)</h3>
+            <a  href="javascript:void(0);" class="icon2" onclick="showmenu()">
+                <i class="fa fa-bars" width="150px" height="130px"></i>
+              </a>
             
+    </section>
+    <section class="mobile_menu">
+        <div id="abas_mobile">
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="localizacao.html">Dojos</a>
+            <a href="sejaalunokendo.html">Seja Aluno</a>
+        </div>
+     
+    </section>
+    <div id="abas">
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre Nós</a>
+        <a href="localizacao.html">Dojos</a>
+        <a href="sejaalunokendo.html">Seja Aluno</a>
+    </div>
+</header>
+<main class="cor_azul"> 
+    <!--seja aluno kendo-->
+    <section class="SobreTitulo">
+        <img src="Imagem/kendodojo.png" style="width: 100%; height: 400px; object-fit: cover; object-position: 20% 40%;filter: brightness(0.6);">
+        <div class="SejaAluno_texto">
+            <h4 class="detaque_vermelho">DESCUBRA A ARTE ANCESTRAL DO KENDO!</h4><br><h2>Um Caminho de Disciplina, Respeito e Evolução Pessoal. </h2>
+            <br>
+               <p>Como aluno, você desenvolverá habilidades físicas e mentais, aprimorando sua concentração, reflexos e espírito guerreiro. </p>
+     
+        </div>
+    </section>
+  
+    <section class="aluno_kendo_conteudo">
+        <br>
+        <br>
+
+        <h1>TURMAS</h1>
+        <!--6 a 12 anos de idade-->
+        
+        <section class="aluno_kendo_direita">
+            <div class="texto_direita">
+            <h3>KODOMO KENDO(6 a 12 anos)</h3>
+            <br>
             <p>Está em busca de uma atividade divertida, segura e educativa para seu filho? O Kendo, a arte do caminho da espada, é muito mais do que uma arte marcial é um aprendizado para a vida!
             Com um ambiente inclusivo e disciplinado, as crianças desenvolvem não apenas habilidades físicas, mas também valores fundamentais baseados nos 7 princípios do Bushido: Integridade, Coragem, Compaixão, Respeito, Honestidade, Honra e Lealdade.
             Nossos instrutores experientes guiam cada aluno nessa jornada, ajudando-os a construir autoconfiança, responsabilidade e espírito esportivo qualidades que farão a diferença dentro e fora do dojo.</p>
             
             </div>
-            <img src="Imagem/kendo 3.jpg" width="300px" height="300px" alt="descendencia.jpg">
+            <img src="Imagem/KendoCriancas.png" width="300px" height="300px" alt="descendencia.jpg">
         </section>
 
         <!--junior kendo 13 a 17 anos-->
 
-        <section class="aluno_kendo">
-            <img src="Imagem/jovem kendo.jpg" width="300px" height="300px" alt="descendencia.jpg">
+        <section class="aluno_kendo_esquerda">
+            <img src="Imagem/KendoJovem.png" width="300px" height="300px" alt="descendencia.jpg">
             <div class="texto_esquerda">
             <h3>JUNIOR KENDO (13 a 17 anos)</h3>
-            
+            <br>
             <p>Admissões semestrais em janeiro, maio e setembro
             Nosso programa Junior Kendo é perfeito para jovens de 13 a 17 anos, e não é necessária experiência prévia! Seguimos um sistema semestral, com novas turmas abertas nas duas primeiras semanas de janeiro, maio e setembro.
 
@@ -92,10 +111,11 @@
         <!--kendo para adultos-->
 
 
-        <section class="aluno_kendo">
+        <section class="aluno_kendo_direita">
         
             <div class="texto_esquerda">
             <h3>KENDO PARA ADULTOS INICIANTES</h3>
+            <br>
             <p>Admissões semestrais em janeiro, maio e setembro
                     
             Sempre quis aprender uma arte marcial tradicional, mas não sabe por onde começar? O Kendo é uma excelente opção para desenvolver disciplina, concentração e condicionamento físico, independentemente da sua experiência anterior!
@@ -111,15 +131,16 @@
             Não há necessidade de experiência prévia apenas vontade de aprender! Venha conhecer o caminho da espada e descubra uma nova paixão.</p>
             
             </div>
-            <img src="Imagem/kendo inciantes.jpg" width="300px" height="300px" alt="descendencia.jpg">
+            <img src="Imagem/Kendoadultos.png" width="300px" height="300px" alt="descendencia.jpg">
         </section>
 
         <!--classe avançada de kendo-->
 
-        <section class="aluno_kendo">
-            <img src="Imagem/kendo 5.jpg" width="300px" height="300px" alt="descendencia.jpg">
+        <section class="aluno_kendo_esquerda">
+            <img src="Imagem/Kendoavancado.png" width="300px" height="300px" alt="descendencia.jpg">
             <div class="texto_esquerda">
             <h3>CLASSE AVANÇADA DE KENDO</h3>
+            <br>
             <p>Aceitamos novos membros o ano todo!
                         
             Nossa classe avançada está aberta para Kendokas experientes que desejam aprimorar suas habilidades e continuar sua jornada no Kendo. Se você já possui experiência, pode se juntar a nós a qualquer momento!
@@ -130,15 +151,26 @@
         </section>
 
     </section>
+    <section class="SobreTitulo">
+        <img src="Imagem/dojoimagem.jpg" style="width: 100%; height: 300px; object-fit: cover; object-position: 20% 25%;filter: brightness(0.6);">
+        <div class="SejaAluno_texto">
+                <h1 class="kendoaluno_texto">INSCREVA-SE</h1>
+        </div>
+    </section>
 
-    <section class="form">
-        <img src="Imagem/samurai1.png"> 
+    <section class="form_area">
 
+       
+     
+     <section class="form">
         <form name="formalario" method="post">
+            
+           
 
         <div class="formcampo">
-            <legend>PREENCHER DADOS DO ALUNO</legend><br>
-            <label for="aluno" >NOME DO ALUNO(A):</label>
+            <h3 class="titulo_vantagens"><b>PREENCHER DADOS DO ALUNO</b></h3><br>
+            <br>
+            <label for="aluno" >Nome do Aluno(a):</label>
             <input type="text" id="nome" name="nome" placeholder="  Nome" autocomplete="off" width="300"required>   
             <input type="text" id="sobrenome" name="sobrenome" placeholder="  Sobrenome" autocomplete="off" width="300" required>
             
@@ -146,69 +178,52 @@
         </div>
 
         <div class="formcampo">
-            <label for="data">DATA DE NASCIMENTO:</label>
+            <label for="data">Data de Nascimento:</label>
             <input type="date" id="data" name="data">
-            
+            <label for="cpf">CPF:</label>                                       
+            <input type="text" id="cpf" name="cpf" placeholder="   ###.###.###-##" autocomplete="off">
         
         </div>
 
+
         <div class="formcampo">
-            <label for="cpf">CPF:</label>                                       
-            <input type="text" id="cpf" name="cpf" placeholder="   ###.###.###-##" autocomplete="off">
+            <label for="sexo">Sexo:</label>
+            <input type="radio" name="sexo" value="masculino"> Masculino
+            <input type="radio" name="sexo" value="feminino"> Feminino
             
             
         </div>
 
         <div class="formcampo">
-            <label for="sexo">SEXO:</label>
-            <input type="radio" name="sexo" value="masculino"> MASCULINO
-            <input type="radio" name="sexo" value="feminino"> FEMININO
-            
-            
+            <label for="endereco">Endereco:</label>
+            <input type="text" id="endereco" name="endereco" style="width: 200px">
+            <label for="complemento">Complemento</label>
+            <input type="text" id="complemento" name="complemento" style="width: 40px">
         </div>
-
-        <div class="formcampo">
-            <label for="endereco">ENDEREÇO:</label>
-            <input type="text" id="endereco" name="endereco" style="width: 310px">
-            
-            
-        </div>
-
-        <div class="formcampo">
-            <label for="complemento">COMPLEMENTO</label>
-            <input type="text" id="complemento" name="complemento" style="width: 300px">
-            
-            
-        </div>
+        
         
         <div class="formcampo">
     
             <label for="cep">CEP:</label>
             <input type="text" id="cep" name="cep" placeholder="   #####-###" autocomplete="off">
-            
-            
-        </div>
-
-        <div class="formcampo">
-    
-            <label for="bairro">BAIRRO:</label>
-            <input type="text" id="bairro" name="bairro" style="width: 300px">
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro" name="bairro" style="width: 100px">
             
             
         </div>
 
         <div class="formcampo">
             
-            <label for="cidade">CIDADE:</label>
+            <label for="cidade">Cidade:</label>
             <input type="text" id="cidade" name="cidade" style="width: 300px">
             
             
         </div>
             
         <div class="formcampo">
-            <label for="Plano">PLANO:</label>
-            <select name="estado" id="select">
-            <option value="">Escolha seu Plano</option>
+            <label for="Plano">Plano:</label>
+            <select name="plano" id="select" required>
+            <option value="" disabled selected >Escolha seu Plano</option>
             <option value="Indvsemequip">Individual + Aluguel de Equipamento = R$189,99</option>
             <option value="Indvequip">Individual = R$99,99</option>
             <option value="famsemequip">Familia(4 pessoas) + Aluguel de Equipamento = R$389,99</option>
@@ -220,41 +235,33 @@
           <!--style - Estilo inlin-->
  
         <div class="formcampo">
-            <label for="telefone">TELEFONE:</label>
+            <label for="telefone">Telefone:</label>
             <input type="text" id="telefone" name="telefone"
-            placeholder="   (##) ####-####  " autocomplete="off"
-            style="width: 300px;"> <br>
+            placeholder="(##) ####-####" autocomplete="off"
+            style="width: 150px;"> 
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" style="width: 300px;" required>
+            <input type="email" id="email" name="email" style="width: 150px;" required>
             </div>
 
           
 
     <fieldset>
         <div class="formcampo">
-            <legend>CONTATO EMÊRGENCIAL</legend>
-            <label for="aluno" >NOME DO CONTATO(A):</label>
-            <input type="text" id="nome" name="nome" placeholder="  Nome" autocomplete="off" width="300">   
-            <input type="text" id="sobrenome" name="sobrenome" placeholder="  Sobrenome" autocomplete="off" width="300"><br><br>
-            <label for="telefone">TELEFONE DO CONTATO:</label>
-            <input type="text" id="telefone" name="telefone"
-            placeholder="   (##) ####-####" autocomplete="off"
-            style="width: 300px;"> <br><br>
-            <label for="codicao"> VOCÊ TEM ALGUMA ALERGIA, DOENÇA CRÔNICA OU CONDIÇÃO MÉDICA QUE LIMITARIA A ATIVIDADE DE ALTO NÍVEL?</label>
-            <input type="radio" name="codicao" value="sim"> SIM
-            <input type="radio" name="codicao" value="não"> NÃO<br><br>
-            <label>SE SIM, POR FAVOR DESCREEVA</label><br><br>
-            <textarea rows="8" style="width: 30em;" id="comente" name="comente"></textarea>
+            <label for="codicao"> Você tem alguma alergia, doença crônica ou condição médica que limitaria a atividade de alto nível?</label>
+            <input type="radio" name="codicao" value="sim"> Sim
+            <input type="radio" name="codicao" value="não"> Não<br><br>
+            <label>Se sim, por favor descreva</label><br><br>
+            <textarea rows="6" style="width: 35em;" id="comente" name="comente"></textarea>
         </div>
     </fieldset>
         
     <fieldset>
         <div class="formcampo">
-            <legend>HABILIDADE</legend><br>
-            <label for="nivel de habilidade">NÍVEL DE HABILIDADE: </label>
-            <input type="radio" name="nivel de habilidade" value="iniciante"> INCIANTE
-            <input type="radio" name="nivel de habilidade" value="intermediario"> INTERMEDIÁRIO
-            <input type="radio" value="avançado"> AVANÇADO<br></div><br>    
+            <h3 class="titulo_vantagens"><b>HABILIDADE</b></h3><br>
+            <label for="nivel de habilidade">Nível de Habilidade: </label>
+            <input type="radio" name="nivel de habilidade" value="iniciante"> Iniciante
+            <input type="radio" name="nivel de habilidade" value="intermediario"> Intermediário
+            <input type="radio" value="avançado"> Avançado<br></div><br>    
     </fieldset>
 
         <div class="formcampo">
@@ -262,10 +269,15 @@
             <input type="reset" value="LIMPAR" name="limpar">
             <input type="submit"value= ENVIAR name="limpar"> </div>   
         </form>
+        <div>
+            <img src="Imagem/kendoalunojap.png" class="kendoalunoform" width="100%" height="100%" alt="kendostudentform">
+        </div>
+     </section>
+    </section>
 
-</section>
-
+</main>
     <!--footer-->
+
 
     <footer class="rodape" > 
         <section class="informacoes">
@@ -303,9 +315,9 @@
                 <h2>REDES SOCIAIS</h2>
                 <p>Nos siga em nossas redes sociais</p>
                 <div>
-                    <a class="informacoes_links_links" href="https://www.instagram.com/sturgeon_kendo/"><img src="Imagem/instagram.png"></a>
-                    <a class="informacoes_links_links" href="https://twitter.com/kendoniagara"><img src="Imagem/twitter-novo.png"></a>
-                    <a class="informacoes_links_links" href="https://www.youtube.com/@TheKendoShow/videos"><img src='Imagem/twitch.png'></a>
+                    <a class="informacoes_links_inst" href="https://www.instagram.com/sturgeon_kendo/"><img src="Imagem/instagram.png"></a>
+                    <a class="informacoes_links_x" href="https://twitter.com/kendoniagara"><img src="Imagem/twitter-novo.png"></a>
+                    <a class="informacoes_links_ytb" href="https://www.youtube.com/@TheKendoShow/videos"><img src='Imagem/twitch.png'></a>
                 </div>
             </div>
         </section>

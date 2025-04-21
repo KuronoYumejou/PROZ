@@ -1,0 +1,261 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body
+{
+    height: 100vh;
+    background-color: rgb(19, 24, 42);
+    color: #dfe4e2;
+    position:relative;
+    width:  100%;
+}
+
+/* Cabeçalho*/
+
+.cabecalho
+{
+   
+    background-color: #130f0c;
+   
+}
+.info
+{
+    display: flex;
+   
+}
+.logo
+{
+    padding: 0% 10%;
+} 
+
+#abas
+{
+    display: flex;
+    gap:50px;
+    position: relative;;
+    font-size: 25px;
+    top: -70px;
+    transform: translateX(35%);
+    font-family: 'Segoe UI', sans-serif;
+    text-decoration: none;
+    
+}
+
+#abas_mobile
+{
+    display: none;
+}
+
+#abas a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+#abas_mobile a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+#abas_mobile 
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+#abas a:hover
+{
+    
+    color: #BC002D;
+}
+
+.link_ativo
+{
+    
+    color: #BC002D;
+}
+
+#abas_mobile  a:hover
+{
+    color:  #BC002D;
+}
+
+.mobile_menu
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* rodape */
+
+.rodape
+{
+    background-color: #130f0c;
+    color: #dfe4e2;
+    text-align: center;
+}
+
+.rodape li::marker
+{
+    color: #BC002D;
+}
+
+/* Informaçoes */
+
+.informacoes
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 150px;
+  
+    
+}
+
+.informacoes_links
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 5% 0%;
+}
+
+
+.informacoes_links_links
+{
+    color: #dfe4e2;
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 20px;
+}
+
+.informacoes a:hover
+{
+    color: #bc002d;
+}
+
+.informacoes_links_social
+{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0%;
+}
+.informacoes_links_inst:hover
+{
+    filter: invert(1) brightness(5);
+}
+.informacoes_links_x:hover
+{
+    filter: invert(1) brightness(5);
+}
+.informacoes_links_ytb:hover
+{
+    filter: invert(1) brightness(5);
+}
+.informacoes_logo
+{
+    padding: 5% 0%;
+}
+.informacoes_direitos
+{
+    font-size: 15px;
+    padding: 20px 0px;
+}
+/* Botão Whatsapp */
+
+.icon{
+    position: fixed;
+    bottom: 65px;
+    right: 30px;
+    font-size: 30px;
+    background-color: #01e675;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100;
+    box-shadow: 2px 2px 2px #c0bdbd;
+    }
+    .icon:hover{
+        background-color: #fff;
+        color: #029e3b;
+        font-weight: 2px;
+        box-shadow: 2px 2px 20px #5fe690;
+    }
+    .container-1{
+        width: 100%;
+        height: 90vh;
+        background-color: #72dda7;
+        margin-bottom: 40px;
+    }
+    .container-2{
+        width: 100%;
+        height: 90vh;
+        background-color: #004d26;
+    
+    }
+/* Botao Mobile */
+
+.icon2
+{
+    display: none;
+}
+@media screen and (max-width:850px){
+    
+    .informacoes_logo
+    {
+        padding: 5% 0%;
+        flex-basis: 100%;
+    }
+    
+    .informacoes
+    {
+        gap: 50px;
+    }
+    .icon2 {
+        background: black;
+        display: block;
+        color: white;
+        padding: 40px 16px;
+        font-size: 30px;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .mobile_menu {
+        overflow: hidden;
+        background-color: #130f0c;
+        position: relative;
+      }
+      
+      .mobile_menu #abas_mobile{
+        display: none;
+      }
+
+      .mobile_menu a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      #abas
+      {
+        display: none;
+      }
+      
+      .mobile_menu a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+
+}
