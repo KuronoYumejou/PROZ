@@ -45,10 +45,9 @@
 .disciplinas
 {
     display: flex;
-    align-items: flex-start;
-    gap: 70px;
+    gap: 50px;
     font-family: 'Segoe UI', sans-serif;
-    padding: 80px;
+    padding: 20px;
     font-size: 20px;
 }
 
@@ -59,7 +58,6 @@
     gap: 80px;
     flex-direction: column;
 }
-
 .disciplinas_lista
 {
     display: flex;
@@ -150,6 +148,14 @@
     {
        margin: 80px;
     }
+
+    .disciplinas
+    {
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 25px 0px 25px 25px;
+        width: 400px;
+    }
 }
 @media screen and (max-width:520px)
 {
@@ -160,6 +166,22 @@
     .vantagens_texto
     {
         text-align: center;
-        width: 500px;
+        width: 400px;
+    }
+    .disciplinas
+    {
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 25px 0px 25px 25px;
+        width: 400px;
+    }
+    .disciplinas_imagem
+    {
+        width: 400px ;
+    }
+    .vantagens_links_botao
+    {
+        padding: 15px 30px;
+        margin: 0px 30px;
     }
 }
