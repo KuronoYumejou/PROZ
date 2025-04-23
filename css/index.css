@@ -134,16 +134,13 @@
     object-fit: cover; 
 }
 @media screen and (max-width:980px){
-    .disciplinas_imagem
-    {
-        align-self: center;
-    }
+   
     
     .disciplinas
     {
         flex-wrap: wrap;
         text-align: center;
-
+        justify-content: center;
 
     }
 }
