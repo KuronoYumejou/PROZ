@@ -133,6 +133,20 @@
     justify-content: center;
     object-fit: cover; 
 }
+@media screen and (max-width:980px){
+    .disciplinas_imagem
+    {
+        align-self: center;
+    }
+    
+    .disciplinas
+    {
+        flex-wrap: wrap;
+        text-align: center;
+
+
+    }
+}
 
 @media screen and (max-width:850px){
     .Kendoka {
@@ -144,18 +158,18 @@
         align-content: center;
     }
 
-    .disciplina_itens
+    .disciplina_coluna
     {
-       margin: 80px;
+        gap: 0px;
     }
 
-    .disciplinas
+    .disciplina_itens
     {
-        flex-wrap: wrap;
-        text-align: center;
-        padding: 25px 0px 25px 25px;
-        width: 400px;
+        padding: 20px;
     }
+
+
+ 
 }
 @media screen and (max-width:520px)
 {
@@ -168,13 +182,7 @@
         text-align: center;
         width: 400px;
     }
-    .disciplinas
-    {
-        flex-wrap: wrap;
-        text-align: center;
-        padding: 25px 0px 25px 25px;
-        width: 400px;
-    }
+ 
     .disciplinas_imagem
     {
         width: 400px ;

@@ -35,11 +35,12 @@ body
 #abas
 {
     display: flex;
-    gap:50px;
-    position: relative;;
+    position: absolute;
+    gap: 70px;
     font-size: 25px;
-    top: -70px;
-    transform: translateX(35%);
+    right: 35%;
+    top: 5%;
+    transform: translateX(10%);
     font-family: 'Segoe UI', sans-serif;
     text-decoration: none;
     
@@ -207,6 +208,22 @@ body
 .icon2
 {
     display: none;
+ 
+}
+@media screen and (max-width:1500px){
+    #abas
+    {
+        right: 25%;
+     
+    }
+}
+@media screen and (max-width:1150px){
+    #abas
+    {
+        gap:50px;
+        right: 15%;
+     
+    }
 }
 @media screen and (max-width:850px){
     
@@ -221,7 +238,7 @@ body
         gap: 50px;
     }
     .icon2 {
-        background: black;
+        color: #130f0c;
         display: block;
         color: white;
         padding: 40px 16px;
